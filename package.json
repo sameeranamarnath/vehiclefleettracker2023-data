@@ -1,0 +1,21 @@
+{
+  "name": "vehiclefleettracker2023-data",
+  "version": "1.0.0",
+  "description": "seed data for the vehicle fleet tracker (v 2023)",
+  "main": "index.js",
+  "repository": "https://github.com/sameeranamarnath/vehiclefleettracker2023-data",
+  "author": "sameeranamarnath <sameeranamarnath@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+
+    "start":"node ./build/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.418.0",
+    "aws-sdk": "^2.1463.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
